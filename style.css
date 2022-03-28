@@ -1,0 +1,167 @@
+body {
+  background-image: url(./maratona-app-sorteio-master/assets/img/fundo-rodape.png);
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+header img {
+  width: 125px;
+}
+
+header h1 {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+section {
+  background-color: #ffffff;
+  -webkit-box-shadow: 5px 5px 5px #808080;
+          box-shadow: 5px 5px 5px #808080;
+  padding: 30px;
+  width: 600px;
+  color: #808080;
+  text-align: center;
+  margin: 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+section h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section p {
+  margin: 10px 0;
+}
+
+section .adicionarNomes {
+  text-align: left;
+  border-top: 1px solid #808080;
+  padding-top: 10px;
+}
+
+section label {
+  display: none;
+}
+
+section textarea {
+  display: block;
+  padding: 10px;
+  width: 515px;
+  height: 150px;
+  max-width: 515px;
+  min-width: 515px;
+  max-height: 150px;
+  min-height: 150px;
+  border: 2px solid #808080;
+  font-family: 'Roboto', sans-serif;
+}
+
+section button {
+  background-color: #1480fa;
+  color: #ffffff;
+  border-style: none;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+section .resultado {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(4, 20, 62, 0.95);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section .resultado span {
+  float: right;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+section .resultado p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+section .resultado.mostrarResultado {
+  left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+footer {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
